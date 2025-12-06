@@ -1,0 +1,75 @@
+.appContainer {
+    min-height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.header {
+    background: white;
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 0;
+    letter-spacing: -0.025em;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filterBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+}
+
+.filterBtn:hover,
+.filterBtn.active {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: #eff6ff;
+}
+
+.main {
+    padding-top: 2rem;
+}
+
+.error {
+    background: var(--error-bg);
+    color: var(--error-text);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}

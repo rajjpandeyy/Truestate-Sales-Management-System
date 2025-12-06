@@ -1,0 +1,6 @@
+# Auto-detect text files and perform LF normalization
+* text=auto
+
+# Handle large CSV files with Git LFS
+# This ensures files >100MB are stored as pointers, not blobs in the repo history
+*.csv filter=lfs diff=lfs merge=lfs -text

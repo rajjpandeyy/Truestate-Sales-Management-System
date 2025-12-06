@@ -1,0 +1,85 @@
+.tableWrapper {
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1200px;
+    /* Ensure horizontal scroll on small screens */
+    font-size: 0.9rem;
+}
+
+.table th {
+    text-align: left;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--divider-color);
+    /* Thicker header border */
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    background: #fdfdfd;
+}
+
+.table th:hover {
+    color: var(--primary-color);
+}
+
+.table td {
+    padding: 1rem 1.5rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--divider-color);
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table tr:hover td {
+    background-color: var(--bg-primary);
+}
+
+.heavyText {
+    font-weight: 600;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.emptyState {
+    text-align: center;
+    padding: 4rem;
+    color: var(--text-muted);
+}
+
+/* Badges for Categories */
+.badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.badge.electronics {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
+.badge.clothing {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.badge.beauty,
+.badge.home {
+    background: #dcfce7;
+    color: #166534;
+}

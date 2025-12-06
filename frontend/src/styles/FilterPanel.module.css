@@ -1,0 +1,98 @@
+.panel {
+    background: white;
+    border-left: 1px solid var(--border-color);
+    width: 300px;
+    height: 100%;
+    padding: 1.5rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--shadow-lg);
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.closeBtn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.closeBtn:hover {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.chip {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    border: 1px solid var(--border-color);
+    background: white;
+    color: var(--text-secondary);
+    transition: all 0.2s;
+}
+
+.chip:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.active {
+    background: var(--info-bg);
+    border-color: var(--info-text);
+    color: var(--info-text);
+}
+
+.rangeInput {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rangeInput input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
