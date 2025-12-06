@@ -2,8 +2,8 @@
 
 ## 1. Overview
 A comprehensive retail sales management dashboard built for TruEstate. This system parses sales data from a CSV into an **optimized SQLite database** for high performance. It provides a robust backend API for searching, filtering, and sorting, coupled with a premium, pixel-perfect React frontend.
-* **Live Application:** [https://truestate-sms.vercel.app/](https://truestate-sms.vercel.app/)
-* **Backend API:** [https://truestate-sms.onrender.com/api](https://truestate-sms.onrender.com/api)
+* **Live Application:** [truestate-sales-management-system-t.vercel.app](truestate-sales-management-system-t.vercel.app)
+* **Backend API:** [https://truestate-sales-management-system.onrender.com/](https://truestate-sales-management-system.onrender.com/)
 
 ## 2. Tech Stack
 * **Backend:** Node.js, Express.js, SQLite (better-sqlite3), CSV Parser
